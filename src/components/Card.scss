@@ -1,0 +1,23 @@
+$default: #f2f1eb;
+$accent: #88ab8e;
+$background: #eee7da;
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.display-picture {
+}
+.image {
+  height: 100%;
+  width: auto;
+  img {
+    border-radius: 10%;
+  }
+}
+.details-cnt {
+  height: 40%;
+  font-size: small;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

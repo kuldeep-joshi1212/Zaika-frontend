@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+.board {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 60%;
+  gap: 5rem;
+}
+.board {
+  margin-top: 4%;
+}
